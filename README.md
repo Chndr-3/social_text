@@ -56,13 +56,13 @@ class SocialToken {
 }
 
 // Parse only
-final tokens = SocialParser.parse('Hey @chandra check out #flutter!',
+final tokens = SocialParser.parse('Hey @flutterdev check out #flutter!',
   triggers: ['@', '#'],
 );
 
 // Build interactive text
 SocialText(
-  text: 'Hey @chandra check out #flutter! 🚀',
+  text: 'Hey @flutterdev check out #flutter and \$dart!',
   triggers: ['@', '#', r'$'],
   style: const TextStyle(color: Colors.black87),
   styleMap: const {
@@ -96,3 +96,4 @@ Run it with:
 cd example
 flutter run
 ```
+

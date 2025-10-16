@@ -24,7 +24,7 @@ class DemoScreen extends StatefulWidget {
 
 class _DemoScreenState extends State<DemoScreen> {
   final _controller = TextEditingController(
-    text: 'Hey @chandra, check out #flutter and \$dart!\nAdd more: @openai #ai \$ml',
+    text: 'Hey @flutterdev, check out #flutter and \\$dart!\\nAdd more: @dartlang #mobile \\$dev',
   );
 
   final triggers = ['@', '#', r'$'];
@@ -51,7 +51,7 @@ class _DemoScreenState extends State<DemoScreen> {
                 controller: _controller,
                 maxLines: 3,
                 decoration: const InputDecoration(
-                  labelText: 'Type text with @, #, \$ tokens',
+                  labelText: 'Type text with @, #, \\$ tokens',
                   border: OutlineInputBorder(),
                 ),
               ),
