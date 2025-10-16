@@ -2,6 +2,8 @@
 
 # social_text
 
+[![pub package](https://img.shields.io/pub/v/social_text.svg)](https://pub.dev/packages/social_text)
+
 Detect, style and interact with social tokens like @mentions, #hashtags, and custom prefixes in Flutter.
 
 </div>
@@ -94,4 +96,3 @@ Run it with:
 cd example
 flutter run
 ```
-
